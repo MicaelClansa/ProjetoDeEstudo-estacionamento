@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: Ajustes preliminares de pacotes starter e controllers">
-      <change afterPath="$PROJECT_DIR$/Backend/.devcontainer/devcontainer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/Controllers/Controllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/starter/EstacionamentoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/test/java/com/estudo/estacionamento/EstacionamentoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/Controllers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/estudo/estacionamento/EstacionamentoApplicationTests.java" beforeDir="false" />
+    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: voltando atrás">
+      <change afterPath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MicaelClansa&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MicaelClansa/ProjetoDeEstudo-estacionamento.git&quot;,
-    &quot;accountId&quot;: &quot;2f0c06d5-5c93-4f68-a66a-d9f8f8a19691&quot;
-  }
-}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="17" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ha2bWJQkbJm5T8GX06hwhZibq3" />
@@ -68,29 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EstacionamentoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MINERADORA/Documents/Repositórios/estacionamento&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "Maven.estacionamento [install].executor": "Run",
+    "Maven.estacionamento [validate].executor": "Run",
+    "Spring Boot.EstacionamentoApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
+}]]></component>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -112,7 +92,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Spring Boot.EstacionamentoApplication" />
       </list>
@@ -136,7 +115,9 @@
       <updated>1717817938803</updated>
       <workItem from="1717817939886" duration="307000" />
       <workItem from="1717818264785" duration="4077000" />
-      <workItem from="1717963239318" duration="2882000" />
+      <workItem from="1717963239318" duration="5072000" />
+      <workItem from="1719019911346" duration="576000" />
+      <workItem from="1719020508313" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Ajustes preliminares de pacotes starter e controllers">
       <option name="closed" value="true" />
@@ -146,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717820617726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Separando repositorio em frontEnd e Backend">
+      <option name="closed" value="true" />
+      <created>1717969837530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717969837530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: voltando atrás">
+      <option name="closed" value="true" />
+      <created>1717969955332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717969955332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +162,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Ajustes preliminares de pacotes starter e controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Ajustes preliminares de pacotes starter e controllers" />
+    <MESSAGE value="feat: Separando repositorio em frontEnd e Backend" />
+    <MESSAGE value="feat: voltando atrás" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: voltando atrás" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
