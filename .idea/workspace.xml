@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: voltando atrás">
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" afterDir="false" />
+    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: Criação preliminar das entidades Client e ControleEntradaSaida">
+      <change afterPath="$PROJECT_DIR$/arquivosDocker/mysql-docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/out/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +26,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -51,13 +57,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.arquivosDocker/mysql-docker-compose.yml.db: Compose Deployment.executor": "Run",
+    "Docker.arquivosDocker/mysql-docker-compose.yml: Compose Deployment.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "Maven.estacionamento [clean].executor": "Run",
+    "Maven.estacionamento [deploy].executor": "Run",
     "Maven.estacionamento [install].executor": "Run",
     "Maven.estacionamento [validate].executor": "Run",
+    "Maven.estacionamento [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "Spring Boot.EstacionamentoApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "developer",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MINERADORA/Documents/Repositórios/estacionamento",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,15 +83,26 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="out.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EstacionamentoApplication">
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="EstacionamentoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -90,10 +118,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="arquivosDocker/mysql-docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="arquivosDocker/mysql-docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="arquivosDocker/mysql-docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="arquivosDocker/mysql-docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Spring Boot.EstacionamentoApplication" />
+        <item itemvalue="Docker.arquivosDocker/mysql-docker-compose.yml.db: Compose Deployment" />
+        <item itemvalue="Docker.arquivosDocker/mysql-docker-compose.yml: Compose Deployment" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +173,15 @@
       <workItem from="1717818264785" duration="4077000" />
       <workItem from="1717963239318" duration="5072000" />
       <workItem from="1719019911346" duration="576000" />
-      <workItem from="1719020508313" duration="2098000" />
+      <workItem from="1719020508313" duration="4429000" />
+      <workItem from="1719890933196" duration="3857000" />
+      <workItem from="1719895105529" duration="331000" />
+      <workItem from="1719957912547" duration="450000" />
+      <workItem from="1720144639469" duration="112000" />
+      <workItem from="1720287130664" duration="13255000" />
+      <workItem from="1720302642285" duration="5140000" />
+      <workItem from="1720487848352" duration="103000" />
+      <workItem from="1720744298247" duration="8705000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Ajustes preliminares de pacotes starter e controllers">
       <option name="closed" value="true" />
@@ -143,7 +207,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717969955332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Update de dependencias">
+      <option name="closed" value="true" />
+      <created>1719023976296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719023976296</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Ajuste para nome do pacote iniciando com letra minuscula">
+      <option name="closed" value="true" />
+      <created>1719024003696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719024003696</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Criação preliminar das entidades Client e ControleEntradaSaida">
+      <option name="closed" value="true" />
+      <created>1719024033183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719024033183</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +252,29 @@
     <MESSAGE value="feat: Ajustes preliminares de pacotes starter e controllers" />
     <MESSAGE value="feat: Separando repositorio em frontEnd e Backend" />
     <MESSAGE value="feat: voltando atrás" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: voltando atrás" />
+    <MESSAGE value="feat: Update de dependencias" />
+    <MESSAGE value="feat: Ajuste para nome do pacote iniciando com letra minuscula" />
+    <MESSAGE value="feat: Criação preliminar das entidades Client e ControleEntradaSaida" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Criação preliminar das entidades Client e ControleEntradaSaida" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/NullPointerException.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
