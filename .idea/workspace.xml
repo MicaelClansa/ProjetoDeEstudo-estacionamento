@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: Criação preliminar das entidades Client e ControleEntradaSaida">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/dto/ClientDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/interfaces/ClientAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/service/CadastroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/usecase/ClientUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: Trabalhando na primeira requisição post. Problema na comunicação dos pacotes a ser resolvido" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +186,7 @@
       <workItem from="1720487848352" duration="103000" />
       <workItem from="1720744298247" duration="8705000" />
       <workItem from="1720927156038" duration="95000" />
-      <workItem from="1720927429676" duration="4704000" />
+      <workItem from="1720927429676" duration="6153000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Ajustes preliminares de pacotes starter e controllers">
       <option name="closed" value="true" />
@@ -247,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719024033183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Trabalhando na primeira requisição post. Problema na comunicação dos pacotes a ser resolvido">
+      <option name="closed" value="true" />
+      <created>1720933698970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720933698970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +268,8 @@
     <MESSAGE value="feat: Update de dependencias" />
     <MESSAGE value="feat: Ajuste para nome do pacote iniciando com letra minuscula" />
     <MESSAGE value="feat: Criação preliminar das entidades Client e ControleEntradaSaida" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Criação preliminar das entidades Client e ControleEntradaSaida" />
+    <MESSAGE value="feat: Trabalhando na primeira requisição post. Problema na comunicação dos pacotes a ser resolvido" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Trabalhando na primeira requisição post. Problema na comunicação dos pacotes a ser resolvido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
