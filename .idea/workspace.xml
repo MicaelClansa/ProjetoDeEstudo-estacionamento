@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74df6dcb-1da2-4e81-906c-a07199584136" name="Changes" comment="feat: Criação preliminar das entidades Client e ControleEntradaSaida">
-      <change afterPath="$PROJECT_DIR$/arquivosDocker/mysql-docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/dto/ClientDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/interfaces/ClientAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/service/CadastroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/usecase/ClientUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/out/service/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/out/entity/ControleEntradaSaida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starter/EstacionamentoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/starter/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +24,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MicaelClansa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MicaelClansa/ProjetoDeEstudo-estacionamento.git",
+    "accountId": "2f0c06d5-5c93-4f68-a66a-d9f8f8a19691"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -70,8 +81,9 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.EstacionamentoApplication.executor": "Run",
-    "git-widget-placeholder": "developer",
+    "git-widget-placeholder": "#1 on developer",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/MINERADORA/Documents/Repositórios/estacionamento",
@@ -80,7 +92,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "service.view.auto.scroll.to.source": "true",
@@ -98,7 +110,7 @@
       <recent name="out.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EstacionamentoApplication">
+  <component name="RunManager" selected="Docker.arquivosDocker/mysql-docker-compose.yml.db: Compose Deployment">
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -119,7 +131,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="arquivosDocker/mysql-docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -145,9 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EstacionamentoApplication" />
         <item itemvalue="Docker.arquivosDocker/mysql-docker-compose.yml.db: Compose Deployment" />
         <item itemvalue="Docker.arquivosDocker/mysql-docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.EstacionamentoApplication" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
@@ -156,8 +170,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -182,6 +196,8 @@
       <workItem from="1720302642285" duration="5140000" />
       <workItem from="1720487848352" duration="103000" />
       <workItem from="1720744298247" duration="8705000" />
+      <workItem from="1720927156038" duration="95000" />
+      <workItem from="1720927429676" duration="4704000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Ajustes preliminares de pacotes starter e controllers">
       <option name="closed" value="true" />
